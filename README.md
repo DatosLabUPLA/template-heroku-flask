@@ -15,7 +15,7 @@ Template para repositorios Flask para heroku
 `web: gunicorn wsgi:app`
 
 5) Crear archivo `runtime.txt` con la version de python. Ínformación de las versiones disponibles: https://devcenter.heroku.com/articles/python-support#supported-runtimes
-`python-3.11.1`
+`python-3.10.9`
 
 6) Crear archivo `wsgi.py` con el siguiente contenido
 ```
